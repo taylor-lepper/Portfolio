@@ -1,7 +1,7 @@
   .root {
       --color-background: #000119;
-      --stroke-width: calc(1.5em / 16);
-      --font-size: 14vmin;
+      --stroke-width: calc(1.5em / 24);
+      --font-size: 8vw;
       --font-weight: 700;
       --letter-spacing: calc(1em / 8);
       box-sizing: border-box;
@@ -15,7 +15,7 @@
       margin: 0;
       min-block-size: 100vh;
       place-items: top;
-      padding: 5vmin;
+      padding-top: 2vmin;
   }
 
   .text {
@@ -31,5 +31,6 @@
   }
 
   .text2 {
-    font-size: var(--font-size/2);
+    font-size: 2vw;
+    padding-top: 10%;
   }

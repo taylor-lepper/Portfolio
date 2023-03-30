@@ -4,7 +4,7 @@ function Spaceship() {
   return (
     <>
       <div className="text-center">
-        <body className={styles.background}>
+        <div className={styles.background}>
           <div className={styles.container}>
             <div className={styles.moon}>
               <div className={styles.crater1}></div>
@@ -25,7 +25,7 @@ function Spaceship() {
               </div>
             </div>
           </div>
-        </body>
+        </div>
       </div>
     </>
   );

@@ -5,7 +5,7 @@
 }
 .container{
   height: 370px;
-  width: 370px;
+  width: 370px;  
   position: absolute;
   margin: auto;
   left: 0;
@@ -13,6 +13,7 @@
   top: 0;
   bottom: 0;
 }
+
 .moon{
   background-color: #35b2f0;
   height: 170px;
