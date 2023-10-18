@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className="text-5xl md:text-9xl font-bold py-20 md:py-4 md:px-4 text-center md:text-left">
           Contact
         </h1>
       </div>
@@ -14,10 +14,10 @@ export default function Contact() {
           <div className="md:ml-4">
             <header className="">
               <h1 className="text-gray-50 font-semibold text-2xl">
-                Get in touch, let&apos;s talk.
+                Get in touch, let&apos;s chat.
               </h1>
               <p className="font-light text-base text-gray-200 mt-2">
-                Fill in the details below to send me a message.
+                Fill in the form to send me a message!
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">

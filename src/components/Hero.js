@@ -19,7 +19,7 @@ export default function Hero() {
           </RainbowText>
           <RainbowText color={colors[1]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Programmer.
+              Builder.
             </h1>
           </RainbowText>
           <RainbowText color={colors[2]}>
@@ -29,7 +29,7 @@ export default function Hero() {
           </RainbowText>
           <RainbowText color={colors[3]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Designer.
+              Creator.
             </h1>
           </RainbowText>
         </RoughNotationGroup>

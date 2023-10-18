@@ -16,25 +16,25 @@ export default function Navbar() {
 
   return (
     <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
-      <div className="flex  md:flex-row justify-between items-center">
+      <div className="flex md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <h1 className="font-semibold text-xl dark:text-gray-100">
+            <h1 className="font-semibold text-xl md:text-3xl dark:text-gray-100">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+            <p className="text-base md:text-xl font-light text-gray-500 dark:text-gray-300">
               {userData.designation}
             </p>
           </Link>
         </div>
 
-        <div className="space-x-8 hidden md:block">
+        <div className="space-x-8 hidden md:block md:space-x-12">
           <Link
             href="/about"
             className={`text-base  ${
               router.asPath === "/about"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
             }`}
           >
             About{" "}
@@ -58,8 +58,8 @@ export default function Navbar() {
             href="/projects"
             className={`text-base  ${
               router.asPath === "/projects"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
             }`}
           >
             Projects
@@ -83,8 +83,8 @@ export default function Navbar() {
             href="/experience"
             className={`text-base  ${
               router.asPath === "/experience"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
             }`}
           >
             Experience{" "}
@@ -108,8 +108,8 @@ export default function Navbar() {
             href="/contact"
             className={`text-base  ${
               router.asPath === "/contact"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
             }`}
           >
             Contact
@@ -177,7 +177,7 @@ export default function Navbar() {
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="w-10 h-10 p-3 rounded focus:outline-none"
+            className="w-10 h-10 md:w-14 md:h-14 p-3 rounded focus:outline-none"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           >
             {mounted && (
@@ -208,6 +208,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+      {/* for small screens only below */}
       <div className="space-x-8 block md:hidden mt-4">
         <Link
           href="/about"

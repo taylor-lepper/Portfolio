@@ -8,8 +8,23 @@ const userData = {
     address: "Spokane, Washington - USA",
     projects: [
       {
-        title: "Tailwind Master Kit",
-        link: "https://tailwindmasterkit.com",
+        title: "Website for 'On Every Site Construction'",
+        link: "https://oneverysiteconstruction.com",
+        imgUrl: "/tmk.jpg",
+      },
+      {
+        title: "NFT Marketplace",
+        link: "https://thedawgmart.com",
+        imgUrl: "/tmk.jpg",
+      },
+      {
+        title: "Taylor Coin - A Blockchain",
+        link: "https://taylorcoin.com",
+        imgUrl: "/tmk.jpg",
+      },
+      {
+        title: "PowerStroke Forums",
+        link: "https://powerstrokeforum.com",
         imgUrl: "/tmk.jpg",
       },
     ],
@@ -17,9 +32,9 @@ const userData = {
       title:
         "I'm a software developer that loves building products and web applications that will impact millions of lives",
       description: [
-        `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-        `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-        `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+        `Ever since my glory days of youth, my curiousity has been a driving force to tear into how things work, with the upmost attention given to every scrutinous detail.`,
+        `Whether it was dissecting my childhood belongings out of wonder, customization and modification for the thrill of something truly one of a kind, or troubleshooting and repairing for necessities sake, I've always had a knack for making projects look peachy and function flawlessly.`,
+        `By now, I'm a legend.  With the right attitude, there's no task too big or too small, too complex or too simple. But as my years increase in number, I quest for greater challenges, more remarkable problems to solve, and to reap the rewards of the most grueling missions conquered.`,
       ],
     },
     experience: [

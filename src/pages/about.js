@@ -1,11 +1,11 @@
 import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
-import About from "../components/About";
+import AboutMe from "../components/AboutMe";
 
 export default function about() {
   return (
     <ContainerBlock>
-      <About />
+      <AboutMe />
     </ContainerBlock>
   );
 }
