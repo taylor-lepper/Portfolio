@@ -18,7 +18,7 @@ export default function Navbar() {
     <div className="max-w-6xl md:max-w-full md:px-40 mx-auto px-4 py-10 md:py-20">
       <div className="flex md:flex-row justify-between items-center">
         <div className="flex flex-col">
-          <Link href="/">
+          <Link className="hover:text-gray-400" href="/">
             <h1 className="font-semibold text-xl md:text-3xl dark:text-gray-100">
               {userData.name}
             </h1>
