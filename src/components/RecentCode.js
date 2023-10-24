@@ -10,13 +10,13 @@ export default function LatestCode({ repositories }) {
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold my-20 md:my-0 dark:text-gray-600 text-center lg:text-left">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold my-20 md:my-0 md:pb-12 dark:text-gray-600 text-center lg:text-left">
             Latest Code
           </h1>
 
           <a
             href={`https://github.com/${userData.githubUsername}`}
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white hover:bg-yellow-100 hover:text-blue-500 shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export default function LatestCode({ repositories }) {
 
 const GithubRepoCard = ({ latestRepo }) => {
   return (
-    <div className="github-repo">
+    <div className="github-repo h-36">
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
         {latestRepo.name}
       </h1>
@@ -60,10 +60,10 @@ const GithubRepoCard = ({ latestRepo }) => {
       </p>
       <a
         href={latestRepo.clone_url}
-        className="font-semibold group flex flex-row space-x-2 w-full items-center"
+        className="font-semibold group flex flex-row space-x-2 w-full items-center hover:text-blue-500"
       >
         <p>View Repository </p>
-        <div className="transform  group-hover:translate-x-2 transition duration-300">
+        <div className="transform group-hover:translate-x-2 transition duration-300 group-hover:text-blue-500">
           &rarr;
         </div>
       </a>

@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl md:max-w-7xl mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl md:max-w-full md:px-40 mx-auto px-4 py-10 md:py-20">
       <div className="flex md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
@@ -34,7 +34,7 @@ export default function Navbar() {
             className={`text-base  ${
               router.asPath === "/about"
                 ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
-                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl hover:text-gray-400"
             }`}
           >
             About{" "}
@@ -59,7 +59,7 @@ export default function Navbar() {
             className={`text-base  ${
               router.asPath === "/projects"
                 ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
-                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl hover:text-gray-400"
             }`}
           >
             Projects
@@ -84,7 +84,7 @@ export default function Navbar() {
             className={`text-base  ${
               router.asPath === "/experience"
                 ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
-                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl hover:text-gray-400"
             }`}
           >
             Experience{" "}
@@ -109,7 +109,7 @@ export default function Navbar() {
             className={`text-base  ${
               router.asPath === "/contact"
                 ? "text-gray-800 font-bold dark:text-gray-400 md:text-2xl"
-                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl"
+                : "text-gray-600 dark:text-gray-300 font-normal md:text-xl hover:text-gray-400"
             }`}
           >
             Contact

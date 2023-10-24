@@ -13,31 +13,31 @@ export default function Hero() {
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowText color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2 hover:text-white">
               Visionary.
             </h1>
           </RainbowText>
           <RainbowText color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2 hover:text-white">
               Builder.
             </h1>
           </RainbowText>
           <RainbowText color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2 hover:text-white">
               Developer.
             </h1>
           </RainbowText>
           <RainbowText color={colors[3]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2 hover:text-white">
               Creator.
             </h1>
           </RainbowText>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
-        <div className="w-3/4 ">
-          <Image src={userData.avatarUrl} alt="avatar" className="shadow py-3" width={475} height={475}/>
+      <div className="hidden lg:block relative w-full md:w-1/2 md:px-32 -mr-40 mt-20">
+        <div className="w-3/4">
+          <Image src={userData.avatarUrl} alt="avatar" className="shadow py-3 rounded-tr-extraLarge rounded-bl-extraLarge" width={500} height={500}/>
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg
